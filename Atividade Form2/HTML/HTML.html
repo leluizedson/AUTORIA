@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário de inscrição</title>
+    <link rel="stylesheet" type="text/css" href="../CSS/CSS.css">
+</head>
+
+<body>
+    <p>Formulário de inscrição</p>
+    <form action="http://www.google.com.br">
+        <fieldset>
+            <legend><label for="user">Nome</label></legend>
+            <input type="text" name="user" placeholder="Digite o seu nome" required>
+            <label for="user">Sobrenome</label>
+            <input type="text" name="user" placeholder="Digite o seu sobrenome" required>
+            <label for="email"></label>Email
+            <input type="email" name="email" required>
+            <label for="pwd">Senha</label>
+            <input type="password" name="pwd" placeholder="Digite sua senha">
+            <input type="radio" name="genero" value="Cisgênero Homem"> Cisgênero Homem
+            <input type="radio" name="genero" value="Cisgênero Mulher"> Cisgênero Mulher
+            <input type="radio" name="genero" value="Transgênero"> Transgênero
+            <input type="radio" name="genero" value="Não Binário"> Não Binário
+            <legend><label for="arquivo">Documento</label></legend>
+            <input type="file" name="arquivo">
+        </fieldset>
+        <fieldset>
+            <legend><input type="checkbox" name="termo" value="termo"> Aceito os termos</legend>
+            <input type="checkbox" name="termo" value="termo"> Permitir o envio dos meu dados para fins estatistícos.
+        </fieldset>
+        <fieldset>
+            <label for="date">Data de Nascimento</label>
+            <input type="date" name="borndate">
+            <input type="reset" value="Resetar">
+            <input type="submit" name="submit">
+        </fieldset>
+    </form>
+     
+</body>
+
+</html>

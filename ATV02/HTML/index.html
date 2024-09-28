@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta lang="en">
+        <meta charset="UTF-8">
+        <title> Formulario </title>
+        <link rel="stylesheet" href="../CSS/styles.css">
+    </head>
+
+    <body>
+        <form action="https://www.youtube.com/watch?v=2ZxMmQeIq48&t=1882s" method="post"> 
+            <p> Formulario de Cadastro</p>
+            
+            <fieldset>
+                <legend>Dados</legend>
+                
+                <label for="nome"> Nome:* </label>
+                <input type="text" placeholder="Digite seu nome" id="nome" required> <br>
+                
+                <label for ="sobrenome"> Sobrenome:* </label>
+                <input type="text" id="sobrenome" required> <br>
+
+                <label for="endereço"> Endereço: </label>
+                <input type="text" id="endereço"> <br>
+
+                <label for="eail"> E-mail:* </label>
+                <input type="email" id="eail" required> <br>
+
+                <label for="celular"> Celular: </label>
+                <input type="tel" id="celular"><br>
+
+                <label for="genero"> Genero: </label><br>
+                <input type="radio" name="cor" value="vermelho" id="vermelho">
+                <label for="vermelho">Vermelho</label><br>
+            
+                <input type="radio" name="cor" value="azul" id="azul">
+                <label for="azul">Azul</label><br>
+            
+                <input type="radio" name="cor" value="verde" id="verde">
+                <label for="verde">Verde</label><br>
+            
+                <input type="radio" name="cor" value="amarelo" id="amarelo">
+                <label for="amarelo">Amarelo</label><br>
+
+                <label for="arquivo">Documento:*</label>
+                <input type="file" id="arquivo"><br>
+
+                <label for="senha"> Senha:*</label>
+                <input type="password" name="senhauser" id="senha" required> <br>
+
+                <label for="repsenha "> Repita a senha:* </label>
+                <input type="password" name="senhauser" id="repsenha" required> <br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Termos </legend>
+                <label for="termos"></label>
+                <input type="checkbox" id="aceito" value="aceitar" required>
+                <label for="aceitar"> Aceito os termos </label><br>
+        
+                <input type="checkbox" id="permito " value="permitir">
+                <label for="permito">Permito o envio </label><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Data e Envio </legend>
+                <label for="datanasci" > Data de Nascimento: </label>
+                <input type="date" id="datanasci" > <br>
+
+                <input type="reset" >
+                <input type="submit">
+            </fieldset>
+        </form>
+    </body>
+</html>
