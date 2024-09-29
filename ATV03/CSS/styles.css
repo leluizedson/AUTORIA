@@ -4,11 +4,7 @@ p {
 }
 
 div {
-    border-style: solid;
-    border-color: black;
-    line-height: 100px;
-    width: 100px;
-    text-align: center;
-
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
-

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reposição</title>
+    <link rel="stylesheet" href="/AUTORIA/REPOSIÇÃO/CSS/styles.css">
+</head>
+<body style="background-color: aliceblue;">
+    <header >
+        
+        <h1>Tapi Tapioca</h1> 
+
+        <nav>
+            <a href="#Home">Home</a>
+            <a href="#Sobre">Sobre</a>
+            <a href="#Menu">Menu</a>
+            <a href="#Reservas">Reservas</a>
+        </nav>
+    
+    </header>
+
+    <img src="/AUTORIA/REPOSIÇÃO/IMAGENS/imagem01.jpg" alt="banner" style="text-align: center; max-width: 720px; height: auto;">
+
+    <div id="div1">
+    
+        <div id="div1">
+            <h3>Sobre o Tapi</h3>
+            <p style="text-align: center;">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam quaerat voluptate consequatur libero obcaecati iusto quibusdam aut. Fugit, quas magni error odio ipsam autem, quaerat pariatur dicta dignissimos molestiae aspernatur?
+            </p>
+        </div>
+        
+        <div>
+            <img src="/AUTORIA/REPOSIÇÃO/IMAGENS/comida.jpg" alt="comida" style="    text-align: center; max-width: 480px; height: auto;">
+            <div id="div1" style="margin: 20px;">
+                <h4>Experimente nosso Cherolaine</h4>
+                <p>Ganhador de Diversos prêmios</p>
+            </div>
+        </div>
+
+
+        <fieldset style="white-space: pre-line; text-align: center; margin: 20px;">
+            <form action="/AUTORIA/REPOSIÇÃO/HTML/form.html" method="get">
+                <legend> <h2>Reservas</h2></legend>
+
+                <label for="numero_pessoas"> <strong>Numero de Pessoas: </label>
+                <input type="number" name="numero_pessoas" id="numero_pessoas" maxlength="5" required>
+
+                <label for="data_reservada">Data reservada: </label>
+                <input type="date" name="data_reservada" id="data_reservada" required>
+
+                <label for="Horario">Horario: </label>
+                <input type="time" name="Horario" id="Horario" required>
+
+                <label for="obs">Observações:</label>
+                <input type="text" name="obs" id="obs">
+
+                <label for="nome">Nome Completo: </label>
+                <input type="text" name="nome" id="nome" required>
+
+                <label for="telefone">Telefone: </label>
+                <input type="tel" name="telefone" id="telefone" required>
+
+                <label for="email"  >E-mail: </label>
+                <input type="email" name="email" id="email" required>
+                
+                <input type="submit" name="enviar" id="enviar" value="Reservar" style="background-color: rgb(15, 88, 213); color: white; padding: 8px;" >
+            </form>
+        </fieldset>
+    </div>
+
+</body>
+</html>
